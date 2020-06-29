@@ -1,0 +1,17 @@
+#include<studio.h>
+
+int addNumbers(float a,float b)
+{
+float sum;
+int add;
+sum=a+b;
+add=(int)(sum);
+return add;
+}
+int main()
+{
+float a,b;
+printf("Enter the 2 floating point numbers :");
+scanf("%f%f",&a,&b);
+printf("Sum in Integer : %d",addNumbers(a,b));
+}
